@@ -56,7 +56,7 @@ Si l'application utilise Gradio, l'adresse locale sera affichée dans le termina
 Exemple, pour lancer le model Qwen2.5-1.5B-Instruct avec comme contenue de système "Tu es le Game Master d'un jeu narratif."
 
 ```bash
-uv run python model.py
+uv run .\models\model.py
 ```
 
 ## Modèle et données
