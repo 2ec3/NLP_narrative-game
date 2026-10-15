@@ -11,13 +11,15 @@ class Model:
         self.assistant_content = ""
         self.max_content = max_content
 
-    def init_history(self, system_content):
-        self.messages = [
-            {
-                "role": "system",
-                "content": system_content
-            }
-        ]
+    def init_history(self, system_content = None):
+        self.messages = []
+        if (system_content):
+            self.messages.append(
+                {
+                    "role": "system",
+                    "content": system_content
+                }
+            )
 
     def add_content(self, role, content):
         self.messages.append(
