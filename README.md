@@ -2,7 +2,10 @@
 
 ## Présentation
 
-Projet de NLP réalisé en groupe de 6 dans le cadre du mini-projet 2 : Agent conversationnel.
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/CY_Tech.svg" align="right"
+     alt="Size Limit logo by Anton Lovchikov" width="170">
+
+Projet de NLP réalisé en groupe de 6 dans le cadre du mini-projet: Agent conversationnel.
 
 L'objectif est de développer un agent IA jouant le rôle de **Game Master** dans un jeu narratif interactif. L'agent décrit les situations, propose des actions au joueur et raconte les conséquences de ses choix, tout en respectant les règles et la cohérence de l'univers.
 
@@ -75,4 +78,10 @@ Les poids du modèle ne sont pas inclus dans le dépôt : ils sont téléchargé
 
 ## Équipe
 
-Projet réalisé par un groupe de 6 étudiants de CY Tech, en 2026.
+Contributeurs: 
+- Abdellah DJEDIDI
+- Florianne PAN
+- Loric HAGARD
+- Nathan LE NESTOUR
+- Junjie SHAO
+- Xinyu YU
