@@ -5,8 +5,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.15.0",
+    "datasets>=5.1.0",
     "ipykernel>=7.4.0",
     "peft>=0.21.2",
+    "safetensors>=0.8.0",
     "torch>=2.14.1",
     "transformers>=5.18.0",
     "trl>=1.15.0",
