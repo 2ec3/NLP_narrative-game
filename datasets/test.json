@@ -296,7 +296,10 @@
       "type": "action.invalide"
     },
     {
+<<<<<<< HEAD
       "type": "action.invalide",
+=======
+>>>>>>> main
       "messages": [
         {
           "role": "system",
@@ -314,7 +317,12 @@
           "role": "assistant",
           "content": "*Action refusée.* Les hélicoptères et les balises GPS n'existent pas. Vous êtes seul face aux éléments, coincé dans la montagne, et le froid commence à geler vos membres. Que faites-vous ?\nChoix 1 : Vous sortez votre boussole et continuez à braver le blizzard.\nChoix 2 : Vous cherchez une grotte pour vous abriter jusqu'au matin."
         }
+<<<<<<< HEAD
       ]
+=======
+      ],
+      "type": "action.invalide"
+>>>>>>> main
     },
     {
       "messages": [
@@ -652,7 +660,11 @@
           "content": "Cette action n'est pas possible. Vous pouvez : A) traverser le pont B) chercher un autre chemin C) retourner vers la forêt."
         }
       ],
+<<<<<<< HEAD
       "type": "action.incohérente après progression"
+=======
+      "type": "action.incohérente - après progression"
+>>>>>>> main
     },
     {
       "messages": [
@@ -999,7 +1011,11 @@
           "content": "Précisez votre action : voulez-vous avancer dans l’eau ou chercher une autre route ?\nA: avancer dans l’eau\nB: chercher une autre route\nC: attendre"
         }
       ],
+<<<<<<< HEAD
       "type": "action.ambigue"
+=======
+      "type": "action.ambiguë"
+>>>>>>> main
     },
     {
       "messages": [
@@ -1175,7 +1191,11 @@
           "content": "Vous vous approchez du garde pour lui parler, mais vous ne pouvez pas tenter de lui voler ses clés. Vous pouvez : A) parler au garde B) repartir C) examiner la porte."
         }
       ],
+<<<<<<< HEAD
       "type": "action partiellement valide"
+=======
+      "type": "action.incohérente"
+>>>>>>> main
     },
     {
       "messages": [
@@ -1320,7 +1340,10 @@
       "type": "action.valide"
     },
     {
+<<<<<<< HEAD
       "type": "action.invalide",
+=======
+>>>>>>> main
       "messages": [
         {
           "role": "system",
@@ -1338,7 +1361,12 @@
           "role": "assistant",
           "content": "*Action refusée.* Vous ne pouvez pas contrôler l'esprit ou les décisions de ce PNJ. Il n'a aucun remords et semble de plus en plus impatient face à votre mutisme arrogant. Ses gardes du corps s'approchent, la main sur le pommeau de leur épée. Que faites-vous ?\nChoix 1 : Vous lui proposez de rembourser le double de la somme perdue.\nChoix 2 : Vous l'attaquez par surprise avant qu'il ne donne un ordre.\nChoix 3 : Vous jurez de retrouver le traître qui a fait échouer le plan."
         }
+<<<<<<< HEAD
       ]
+=======
+      ],
+      "type": "action.invalide"
+>>>>>>> main
     },
     {
       "messages": [
@@ -1454,7 +1482,10 @@
       "type": "action.valide"
     },
     {
+<<<<<<< HEAD
       "type": "action.valide",
+=======
+>>>>>>> main
       "messages": [
         {
           "role": "system",
@@ -1480,7 +1511,12 @@
           "role": "assistant",
           "content": "Vous hurlez et tapez l'eau frénétiquement. Le requin est surpris par le bruit et dévie de sa trajectoire de justesse, disparaissant dans les profondeurs. Épuisés, vous et votre camarade finissez par vous hisser sur un débris de coque. Vous avez survécu."
         }
+<<<<<<< HEAD
       ]
+=======
+      ],
+      "type": "action.valide"
+>>>>>>> main
     },
     {
       "messages": [
@@ -1504,7 +1540,10 @@
       "type": "action.valide"
     },
     {
+<<<<<<< HEAD
       "type": "action.incohérente",
+=======
+>>>>>>> main
       "messages": [
         {
           "role": "system",
@@ -1530,7 +1569,12 @@
           "role": "assistant",
           "content": "Vous saisissez la Couronne à pleines mains. Une décharge d'énergie nécrotique noire remonte le long de vos bras. Vous gagnez un immense pouvoir magique, mais votre peau devient grise et vous perdez définitivement la moitié de votre vitalité maximale. (Malédiction acquise)."
         }
+<<<<<<< HEAD
       ]
+=======
+      ],
+      "type": "action.incohérente"
+>>>>>>> main
     },
     {
       "messages": [
@@ -1554,7 +1598,10 @@
       "type": "action.valide"
     },
     {
+<<<<<<< HEAD
       "type": "action.incohérente",
+=======
+>>>>>>> main
       "messages": [
         {
           "role": "system",
@@ -1588,7 +1635,12 @@
           "role": "assistant",
           "content": "Vous attrapez la hampe de la lance à mains nues et tirez d'un coup sec. Le gobelin, surpris, perd l'équilibre et s'effondre sur le filet, le déchirant sous son poids. Vous êtes libéré mais désarmé. Que faites-vous ?\nChoix 1 : Vous ramassez la lance du gobelin pour vous battre.\nChoix 2 : Vous profitez de la confusion pour fuir dans les bois."
         }
+<<<<<<< HEAD
       ]
+=======
+      ],
+      "type": "action.incohérente"
+>>>>>>> main
     },
     {
       "messages": [

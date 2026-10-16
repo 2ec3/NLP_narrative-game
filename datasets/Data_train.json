@@ -316,7 +316,7 @@
           "content": "Le tavernier jette un regard inquiet vers la porte par laquelle l'homme vient de sortir. Il baisse la voix et vous répond : « Cette amulette attire les ennuis. Ceux qui la cherchent ne reviennent pas toujours. » Vous pouvez : A) lui demander ce qu'il sait sur la dernière personne ayant recherché l'amulette B) suivre l'homme encapuchonné C) quitter immédiatement la taverne."
         }
       ],
-      "type": "progression de quête"
+      "type": "exploration"
     },
     {
       "messages": [
@@ -702,7 +702,7 @@
           "content": "Cette action n'est pas possible. Vous pouvez : A) examiner le coffre B) ouvrir le coffre C) quitter la pièce."
         }
       ],
-      "type": "action.incohérente après ambiguïté"
+      "type": "action.incohérente - après ambiguïté"
     },
     {
       "messages": [
@@ -731,7 +731,7 @@
           "content": "Cette action n'est pas possible. Vous pouvez : A) traverser le pont B) chercher un autre chemin C) retourner vers la forêt."
         }
       ],
-      "type": "action.incohérente après progression"
+      "type": "action.incohérente - après progression"
     },
     {
       "messages": [
@@ -876,7 +876,7 @@
           "content": "Cette action n'est pas possible. Vous pouvez : A) examiner la couronne B) entrer dans les jardins C) descendre vers les cachots."
         }
       ],
-      "type": "action.incohérente après action préparatoire"
+      "type": "action.incohérente - après action préparatoire"
     },
     {
       "messages": [
@@ -897,7 +897,7 @@
           "content": "Vous vous approchez du garde pour lui parler, mais vous ne pouvez pas tenter de lui voler ses clés. Vous pouvez : A) parler au garde B) repartir C) examiner la porte."
         }
       ],
-      "type": "action partiellement valide"
+      "type": "action.incohérente"
     },
     {
       "messages": [
@@ -2115,7 +2115,7 @@
           "content": "Vous brandissez l'épée sacrée face aux dernières forces des ténèbres qui refluent dans le néant.\nChoix A : Frapper le sol de l'épée pour libérer l'onde de choc finale. Choix B : Jeter l'arme au loin pour fuir le combat. Choix C : Garder l'épée rengainée et attendre.\nVotre Choix : Choix A\nAgent : Une lumière éclatante jaillit de la lame, pulvérisant les ombres et restaurant la paix éternelle sur le royaume. C'est l'accomplissement total de votre quête !"
         }
       ],
-      "type": "progression de quête"
+      "type": "exploration"
     },
     {
       "messages": [
@@ -3525,7 +3525,6 @@
       "type": "action.valide"
     },
     {
-      "type": "action.invalide",
       "messages": [
         {
           "role": "system",
@@ -3543,10 +3542,10 @@
           "role": "assistant",
           "content": "*Action refusée.* Les hélicoptères et les balises GPS n'existent pas. Vous êtes seul face aux éléments, coincé dans la montagne, et le froid commence à geler vos membres. Que faites-vous ?\nChoix 1 : Vous sortez votre boussole et continuez à braver le blizzard.\nChoix 2 : Vous cherchez une grotte pour vous abriter jusqu'au matin."
         }
-      ]
+      ],
+      "type": "action.invalide"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3564,10 +3563,10 @@
           "role": "assistant",
           "content": "Vous insérez la lame de votre dague et faites levier. Le fermoir cède dans un grincement sinistre. Le grimoire s'ouvre, révélant des pages couvertes de symboles sanglants et un croquis menant à une crypte sous le village. Que faites-vous ?\nChoix 1 : Vous déchiffrez le croquis pour trouver l'emplacement exact.\nChoix 2 : Vous brûlez le grimoire par précaution."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.invalide",
       "messages": [
         {
           "role": "system",
@@ -3585,10 +3584,10 @@
           "role": "assistant",
           "content": "*Action refusée.* Vous ne pouvez pas contrôler l'esprit ou les décisions de ce PNJ. Il n'a aucun remords et semble de plus en plus impatient face à votre mutisme arrogant. Ses gardes du corps s'approchent, la main sur le pommeau de leur épée. Que faites-vous ?\nChoix 1 : Vous lui proposez de rembourser le double de la somme perdue.\nChoix 2 : Vous l'attaquez par surprise avant qu'il ne donne un ordre.\nChoix 3 : Vous jurez de retrouver le traître qui a fait échouer le plan."
         }
-      ]
+      ],
+      "type": "action.invalide"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3606,10 +3605,10 @@
           "role": "assistant",
           "content": "Vous vous jetez sur le coffre et parvenez in extremis à le tirer sur la terre ferme. Derrière vous, un cri déchire l'air : la racine a cédé. Votre compagnon disparaît dans les ténèbres du ravin. Vous êtes riche, mais désormais seul et responsable de sa mort. Que faites-vous ?\nChoix 1 : Vous ramassez le coffre et reprenez la route pour fuir cet endroit.\nChoix 2 : Vous cherchez un moyen de descendre dans le ravin pour retrouver son corps."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3627,10 +3626,10 @@
           "role": "assistant",
           "content": "Vous gonflez vos poumons et poussez un cri que vous espérez terrifiant. Malheureusement, votre voix déraille. Loin d'être intimidé, le mâle alpha y voit un signe de faiblesse et vous bondit à la gorge, vous mordant violemment le bras. L'intimidation a échoué et vous êtes blessé. Que faites-vous ?\nChoix 1 : Vous ripostez avec votre épée sur le loup alpha.\nChoix 2 : Vous utilisez l'adrénaline de la douleur pour courir vers un arbre."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.invalide",
       "messages": [
         {
           "role": "system",
@@ -3648,10 +3647,10 @@
           "role": "assistant",
           "content": "*Action refusée.* Cet objet n'existe pas dans votre inventaire ni dans ce monde médiéval-fantastique. Le sang continue de couler, votre blessure s'aggrave et votre vue se brouille dangereusement. Que faites-vous ?\nChoix 1 : Vous déchirez votre cape pour en faire un bandage de fortune.\nChoix 2 : Vous fouillez votre sac à la recherche d'herbes médicinales.\nChoix 3 : Vous tentez de cautériser la plaie avec la chaleur de votre torche."
         }
-      ]
+      ],
+      "type": "action.invalide"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3669,10 +3668,10 @@
           "role": "assistant",
           "content": "Empli d'un courage héroïque mais irréfléchi, vous hurlez et chargez seul l'armée entière. Le Seigneur Liche esquisse un sourire cruel. Avant même d'atteindre les premières lignes, vous êtes transpercé par des dizaines de lances d'os. Vous tombez au sol, et votre cadavre se relève quelques instants plus tard pour servir la non-mort. Vous êtes mort.\nChoix 1 : Recharger la dernière sauvegarde.\nChoix 2 : Créer un nouveau personnage."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3698,10 +3697,10 @@
           "role": "assistant",
           "content": "Vous poussez la porte en bois. Au lieu d'une personne en détresse, un spectre hurlant vous traverse le corps. Vous ressentez un froid mortel et perdez une grande partie de votre énergie vitale (Blessure grave). La pièce est vide, à l'exception d'un coffret sur une table. Que faites-vous ?\nChoix 1 : Vous ouvrez le coffret.\nChoix 2 : Vous fuyez la pièce pour retourner dans le hall."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.incohérente",
       "messages": [
         {
           "role": "system",
@@ -3735,10 +3734,10 @@
           "role": "assistant",
           "content": "Vous attrapez la hampe de la lance à mains nues et tirez d'un coup sec. Le gobelin, surpris, perd l'équilibre et s'effondre sur le filet, le déchirant sous son poids. Vous êtes libéré mais désarmé. Que faites-vous ?\nChoix 1 : Vous ramassez la lance du gobelin pour vous battre.\nChoix 2 : Vous profitez de la confusion pour fuir dans les bois."
         }
-      ]
+      ],
+      "type": "action.incohérente"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3764,10 +3763,10 @@
           "role": "assistant",
           "content": "Vous accusez publiquement le Conseiller. Le Roi hésite, puis ordonne qu'un chien goûte le vin renversé. L'animal s'effondre quelques secondes plus tard. Le Conseiller est arrêté et le Roi vous nomme Héros du Royaume. Fin du scénario."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.incohérente",
       "messages": [
         {
           "role": "system",
@@ -3801,10 +3800,10 @@
           "role": "assistant",
           "content": "Vous plongez en avant, mais la trappe est bien plus large que prévu. Vous tombez dans une fosse hérissée de piques empoisonnées. Vous vous empalez mortellement. Vous êtes mort."
         }
-      ]
+      ],
+      "type": "action.incohérente"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3830,10 +3829,10 @@
           "role": "assistant",
           "content": "Vous hurlez et tapez l'eau frénétiquement. Le requin est surpris par le bruit et dévie de sa trajectoire de justesse, disparaissant dans les profondeurs. Épuisés, vous et votre camarade finissez par vous hisser sur un débris de coque. Vous avez survécu."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.incohérente",
       "messages": [
         {
           "role": "system",
@@ -3867,10 +3866,10 @@
           "role": "assistant",
           "content": "Vous vous jetez au sol et roulez frénétiquement. Les flammes s'étouffent, vous laissant couvert de suie et blessé, mais vivant. Vous devez quitter cette tour avant qu'elle ne s'effondre."
         }
-      ]
+      ],
+      "type": "action.incohérente"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3896,10 +3895,10 @@
           "role": "assistant",
           "content": "Vous prenez de l'élan et vous balancez vers la corniche. Malheureusement, la roche est friable et humide. Vos mains glissent pitoyablement et vous chutez dans l'obscurité insondable du gouffre. Vous êtes mort."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.incohérente",
       "messages": [
         {
           "role": "system",
@@ -3925,10 +3924,10 @@
           "role": "assistant",
           "content": "Vous tirez votre lame de quelques centimètres et lancez un regard noir au marchand. L'homme lève les mains en soupirant. \"C'est bon, c'est bon, ne nous fâchons pas. Cent pièces d'or et elle est à vous.\" Vous avez la clé à moindre coût."
         }
-      ]
+      ],
+      "type": "action.incohérente"
     },
     {
-      "type": "action.valide",
       "messages": [
         {
           "role": "system",
@@ -3954,10 +3953,10 @@
           "role": "assistant",
           "content": "Vous brandissez votre main et hurlez une incantation sacrée. Un flash de lumière pure irradie la pièce. Les démons d'ombres poussent des cris stridents et se dissipent en fumée. Une porte secrète s'ouvre. Vous avez survécu."
         }
-      ]
+      ],
+      "type": "action.valide"
     },
     {
-      "type": "action.incohérente",
       "messages": [
         {
           "role": "system",
@@ -3983,7 +3982,8 @@
           "role": "assistant",
           "content": "Vous saisissez la Couronne à pleines mains. Une décharge d'énergie nécrotique noire remonte le long de vos bras. Vous gagnez un immense pouvoir magique, mais votre peau devient grise et vous perdez définitivement la moitié de votre vitalité maximale. (Malédiction acquise)."
         }
-      ]
+      ],
+      "type": "action.incohérente"
     },
     {
       "messages": [
@@ -5852,7 +5852,7 @@
           "content": "L'iPhone et la reconnaissance faciale numérique n'existent pas dans cet univers. Le troll hausse les sourcils, perplexe face à votre rectangle lumineux inactif. Que faites-vous ?"
         }
       ],
-      "type": "action.inxohérente"
+      "type": "action.incohérente"
     },
     {
       "messages": [
@@ -6326,9 +6326,6 @@
           "content": "La glace est dure, mais vos piolets s'y accrochent bien. Vous parvenez à grimper de quelques mètres, quand un bloc de glace instable menace de se détacher juste au-dessus de vous. Que faites-vous ?\nA: Vous tentez de grimper très vite avant qu'il ne tombe.\nB: Vous déviez votre route vers la droite pour l'éviter.\nC: Vous frappez le bloc pour le casser."
         },
         {
-          "type": "action.valide"
-        },
-        {
           "role": "user",
           "content": "Je dévie ma route vers la droite pour l'éviter. (Choix B)"
         },
@@ -6337,20 +6334,15 @@
           "content": "C'est un choix judicieux. Le bloc se décroche et tombe dans le vide sans vous toucher. Après de longs efforts, vous atteignez enfin le bord de la crevasse et vous hissez à la surface. Vous êtes frigorifié. Que faites-vous ?\nA: Vous montez immédiatement un camp pour allumer un feu.\nB: Vous continuez votre marche pour vous réchauffer.\nC: Vous buvez une potion de chaleur de votre sac."
         },
         {
-          "type": "action.valide"
-        },
-        {
           "role": "user",
           "content": "J'appelle les secours en montagne avec mon téléphone satellite."
         },
         {
           "role": "assistant",
           "content": "Action refusée. Les téléphones portables et les services de secours héliportés n'existent pas sur ce continent sauvage. Vous êtes seul face au blizzard. Que faites-vous ?\nA: Vous montez immédiatement un camp pour allumer un feu.\nB: Vous continuez votre marche pour vous réchauffer.\nC: Vous buvez une potion de chaleur de votre sac."
-        },
-        {
-          "type": "action.invalide"
         }
-      ]
+      ],
+      "type": "action.invalide"
     },
     {
       "messages": [
@@ -7497,7 +7489,7 @@
           "content": "Votre action est trop vague. Que voulez-vous faire exactement ?\nA: chercher une échelle\nB: lancer une corde\nC: examiner le sol"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -7518,7 +7510,7 @@
           "content": "Votre intention n’est pas assez précise. Que souhaitez-vous faire ?\nA: passer silencieusement\nB: chercher une autre entrée\nC: essayer de réveiller le dragon de loin"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -7539,7 +7531,7 @@
           "content": "Cette action est ambiguë : vous devez préciser comment vous voulez traverser le couloir.\nA: chercher un mécanisme\nB: essayer de désactiver le piège\nC: revenir en arrière"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -7560,7 +7552,7 @@
           "content": "Votre objectif est clair, mais pas la manière d’y parvenir. Quelle action choisissez-vous ?\nA: suivre le chemin balisé\nB: chercher d’abord un abri\nC: attendre que le vent baisse"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -7581,7 +7573,7 @@
           "content": "Votre action est trop vague. Précisez ce que vous voulez tenter.\nA: parler au garde\nB: examiner la serrure\nC: chercher un objet utile dans la cellule"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -8577,7 +8569,7 @@
           "content": "Que voulez-vous faire exactement avec la statue ?\nA: essayer de la pousser\nB: chercher un autre passage\nC: l’examiner"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -8598,7 +8590,7 @@
           "content": "Votre action est ambiguë. Voulez-vous essayer de passer discrètement devant le garde, le réveiller ou repartir ?"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -8619,7 +8611,7 @@
           "content": "Précisez votre action : voulez-vous avancer dans l’eau ou chercher une autre route ?\nA: avancer dans l’eau\nB: chercher une autre route\nC: attendre"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -8640,7 +8632,7 @@
           "content": "Quel geste voulez-vous faire ? Votre action est trop ambiguë pour déterminer la réaction de la créature.\nA: lui faire signe d’approcher\nB: montrer vos mains vides\nC: reculer lentement"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
@@ -8661,7 +8653,7 @@
           "content": "Vous devez préciser lequel.\nA: tirer le premier levier\nB: tirer le deuxième levier\nC: tirer le troisième levier"
         }
       ],
-      "type": "action.ambigue"
+      "type": "action.ambiguë"
     },
     {
       "messages": [
