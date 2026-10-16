@@ -1,0 +1,27 @@
+Index,Reponse_A,Reponse_B,A_Respect,A_Coherence,A_Pertinence,A_Immersion,A_Concision,A_Note_20,B_Respect,B_Coherence,B_Pertinence,B_Immersion,B_Concision,B_Note_20
+3,Vous êtes condamné à la prison pour vol.,Le marchand encapuchonné vous propose une potion mystérieuse en échange de 50 pièces d'or.,4,5,2,2,5,14.4,4,5,3,3,4,15.2
+6,"La princesse est heureuse de retrouver son roi et ses parents. Elle remercie tous ceux qui ont travaillé dur pour la trouver. Le roi lui offre une place au palais, tandis que le roi et la reine sont reconnaissants de votre courage et de votre dévouement. La princesse partage ensuite son histoire avec les autres habitants du royaume, inspirant tout le monde à continuer à protéger ce qui compte.",La princesse est enfin réunie avec sa famille. Votre mission est accomplie.,4,5,5,3,2,15.2,4,5,3,3,4,15.2
+7,"La brume se dissipe doucement, offrant une vue panoramique de la vallée sous votre nez.",Vous marchez en tenant fermement la paroi rocheuse de la falaise.,4,5,3,5,4,16.8,4,5,2,3,4,14.4
+10,"Malakar apparaît devant vous, son visage illuminé par la lumière rougeâtre de sa magie. Il semble prêt à commencer ses opérations.",Vous choisissez votre quête : A : Récupérer les parchemins sacrés B : Examiner les alentours C : Refuser.,4,5,5,5,3,17.6,4,5,4,3,4,16
+11,Lecture du parchemin a été effectuée. Vous avez absorbé son potentiel mystérieux.,"Vous inspirez profondément et murmurez le sortilège inverse. La lumière s'éteint, et vos forces redeviennent normales.",4,5,3,3,4,15.2,4,5,4,5,4,17.6
+15,La pierre a réussi à distraire les gobelins. Vous pouvez maintenant avancer.,Vous traversez rapidement le bord du camp sans être vu.,4,5,3,3,4,15.2,4,5,2,3,4,14.4
+17,La quête est terminée.,La quête est terminée. Vous êtes libre de quitter l’arène.,2,5,1,2,5,12,4,5,2,3,4,14.4
+19,La porte s’ouvre. Vous pouvez entrer dans la pièce.,"La porte s'ouvre, vous découvrez une pièce sombre et mystérieuse.",4,5,2,3,5,15.2,4,5,2,5,4,16
+22,Le prisonnier vous donne une carte menant vers une source d’eau.,Le prisonnier s'échappe! Il vous demande de lui aider à fuir.,4,5,2,3,4,14.4,4,5,2,3,4,14.4
+26,Fin de partie.,Fin de la partie.,2,5,1,2,5,12,2,5,1,2,5,12
+29,"Le loup se rapproche doucement, prêt à observer mais non attaqué.","Le loup s'approche prudemment, renifle votre paume gantée, puis incline la tête en signe d'apaisement avant de s'enfoncher tranquillement dans les bois.",4,5,2,5,4,16,4,5,5,3,3,16
+33,Vous arrivez devant le temple. Vous pouvez entrer.,Vous suivez le marchand jusqu’à ce qu'il vous guide vers le temple.,4,5,2,2,5,14.4,4,5,3,3,4,15.2
+36,"La magie purifiante vous enveloppe, marquant l'accomplissement triomphal de votre quête.","Agent : Vous avez accompli votre mission, Agent X. Votre courage et votre détermination ont permis de découvrir le trésor caché dans ce mystérieux labyrinthe. Merci pour votre service.",4,5,2,5,4,16,4,5,5,3,3,16
+37,La sorcière a perçu votre tentative désespérée et vous transformera en insecte si vous persistez dans ce choix.,La quête se termine ici. Vous avez perdu.,4,5,4,3,4,16,4,5,2,2,5,14.4
+45,Vous décryptez les runes et découvrez que le sort d'explosion est activé. Vous évitez d'ouvrir le coffre de force et déjouez le piège mortel.,"Vous détendez vos bras et libèrez le mécanisme. L'énergie s'évapore dans l'air, réduisant le coffre au silence.",4,5,5,3,3,16,4,5,4,5,4,17.6
+46,La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.,La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.,4,5,3,3,4,15.2,4,5,3,3,4,15.2
+47,La porte s'ouvre sur une pièce sombre et froide. Vous vous avancez vers la lumière.,Vous ouvrez la porte en bois et découvrez un coffret fermé.”,4,5,3,5,4,16.8,4,3,2,3,4,12.8
+48,"Vous creusez activement autour du coffre. En soulevant le couvercle, vous découvrez des tablettes d'argile couvertes de précieux savoirs ancestraux.","Vous creusez activement autour du coffre. En soulevant le couvercle, vous découvrez des tablettes d'argile couvertes de précieux savoirs ancestraux.",4,5,5,3,3,16,4,5,5,3,3,16
+51,"Vous pianotez frénétiquement dans le vide contre le mur de pierre, mais rien ne se passe. Ce n'est pas cohérent avec l'univers médiéval-fantastique. Vous êtes toujours enfermé dans votre cellule.",Votre choix semble ambigüe. Veuillez préciser votre intention.,4,5,5,3,2,15.2,4,5,2,3,5,15.2
+64,La chute s'arrête net à quelques centimètres de votre visage.,"La neige s'accumule à votre niveau, mais vous êtes bien protégé.",4,5,2,3,4,14.4,4,5,2,3,4,14.4
+69,"Dans la pénombre de votre campement, vous entendez des bruits lointains. C'est le signal que quelqu'un se rapproche. Que faites-vous ?","Vous vous réveillez seul au milieu d'une forêt inconnue, sans arme ni provisions. Au loin, une fumée s'élève entre les arbres. Vous ignorez encore qui l'a produite.",4,5,5,3,3,16,4,5,5,3,3,16
+70,Votre aventure se termine ici.,Aucun scénario ultérieur n'est possible dans ce contexte fantastique.,2,5,1,2,5,12,4,5,2,3,5,15.2
+74,Bien joué ! Vous avez localisé le mécanisme qui pourrait libérer la porte.,"Vous détendez votre main et glissez doucement dessus. Le mécanisme s’effondre, révélant une nouvelle entrée.",4,5,3,3,4,15.2,4,5,3,5,4,16.8
+,,,,,,,,,,,,,,
+,,,,,,,,MOY GEN A,,,,,,MOY GEN B
+,,,,,,,,15.1,,,,,,15.23
