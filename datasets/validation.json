@@ -476,10 +476,9 @@
           "content": "Le tavernier jette un regard inquiet vers la porte par laquelle l'homme vient de sortir. Il baisse la voix et vous répond : « Cette amulette attire les ennuis. Ceux qui la cherchent ne reviennent pas toujours. » Vous pouvez : A) lui demander ce qu'il sait sur la dernière personne ayant recherché l'amulette B) suivre l'homme encapuchonné C) quitter immédiatement la taverne."
         }
       ],
-      "type": "progression de quête"
+      "type": "exploration"
     },
     {
-      "type": "action.incohérente",
       "messages": [
         {
           "role": "system",
@@ -513,7 +512,8 @@
           "role": "assistant",
           "content": "Vous plongez en avant, mais la trappe est bien plus large que prévu. Vous tombez dans une fosse hérissée de piques empoisonnées. Vous vous empalez mortellement. Vous êtes mort."
         }
-      ]
+      ],
+      "type": "action.incohérente"
     },
     {
       "messages": [
