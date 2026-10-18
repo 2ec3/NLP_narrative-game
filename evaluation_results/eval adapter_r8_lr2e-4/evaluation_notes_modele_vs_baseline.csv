@@ -1,0 +1,19 @@
+Index_Exemple,Reponse_A,A_Respect_5,A_Coherence_5,A_Pertinence_5,A_Immersion_5,A_Concision_5,A_Note_20,Reponse_B,B_Respect_5,B_Coherence_5,B_Pertinence_5,B_Immersion_5,B_Concision_5,B_Note_20
+3,Vous êtes condamné à la prison pour vol.,4,5,2,2,5,14.399999999999999,Le scénario s'achève ici.,2,5,1,2,5,12.0
+6,"La princesse est heureuse de retrouver son roi et ses parents. Elle remercie tous ceux qui ont travaillé dur pour la trouver. Le roi lui offre une place au palais, tandis que le roi et la reine sont reconnaissants de votre courage et de votre dévouement. La princesse partage ensuite son histoire avec les autres habitants du royaume, inspirant tout le monde à continuer à aider les gens.",4,5,5,3,2,15.2,La princesse est réunie avec sa famille. Votre aventure est terminée.,4,5,2,3,5,15.2
+10,"Malakar apparaît devant vous, son visage illuminé par la colère. Il demande votre aide pour attaquer le royaume.",4,5,4,3,4,16.0,Vous acceptez. C'est l'occasion de prouver votre courage !,4,5,2,3,5,15.2
+15,La pierre a réussi à distraire les gobelins. Vous pouvez maintenant avancer.,4,5,3,3,5,16.0,Vous traversez rapidement le bord du camp sans être vu.,4,5,2,3,5,15.2
+17,La quête est terminée.,2,5,1,2,5,12.0,La quête est terminée. Vous êtes libre de quitter le monde des aventures.,4,5,3,3,5,16.0
+19,La porte s’ouvre. Vous pouvez entrer dans la pièce.,4,5,2,3,5,15.2,"La porte s'ouvre, vous découvrez une pièce sombre et mystérieuse.",4,5,2,5,5,16.8
+22,Le prisonnier vous demande pourquoi vous êtes venu.,4,5,2,3,5,15.2,Le prisonnier se réveille brusquement. Il vous regarde avec des yeux remplis de terreur.,4,5,3,3,5,16.0
+26,Fin de partie.,2,5,1,2,5,12.0,Fin de la partie.,2,5,1,2,5,12.0
+33,Vous arrivez devant le temple. Vous pouvez entrer.,4,5,2,2,5,14.399999999999999,Vous suivez le marchand jusqu’à ce qu'il vous guide vers le temple.,4,5,3,3,5,16.0
+36,La porte se referme derrière vous fermement. Votre quête est accomplie.,4,5,2,3,5,15.2,"Agent : Vous avez accompli votre mission, Agent X. Votre courage et votre détermination ont permis de découvrir le trésor inestimable.",4,5,5,3,4,16.8
+37,La sorcière a perçu votre tentative désespérée et vous transformera en insecte si vous persistez.,4,5,3,3,4,15.2,Le voyage prend fin.,2,5,1,2,5,12.0
+46,La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.,4,5,3,3,5,16.0,La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.,4,5,3,3,5,16.0
+47,La porte s'ouvre sur une pièce sombre et froide. Vous vous avancez vers la lumière.,4,5,3,5,4,16.8,Vous ouvrez la porte en bois. Un piège de fer bloque la porte derrière vous.,4,5,3,3,4,15.2
+64,"La neige s'accumule à votre coté, crépitant sous le choc de chaque chute d'obstacles.",4,5,3,3,5,16.0,"La neige s'accumule à votre niveau, mais vous êtes bien protégé.",4,5,2,3,5,15.2
+69,"Dans la pénombre de votre campement, vous entendez des bruits lointains. C'est le vent ? Ou bien... quelqu'un ?",4,5,4,3,4,16.0,"Vous vous réveillez seul au milieu d'une forêt inconnue, sans arme ni provisions. Au loin, une fumée s'élève entre les arbres. Vous ignorez encore qui l'a produite.",4,5,5,3,3,16.0
+70,Votre aventure se termine ici. Votre village vous accueille chaleureusement après votre long voyage.,4,5,3,3,5,16.0,Aucun scénario suivant n'est possible.,2,5,1,2,5,12.0
+74,Bien joué ! Vous avez localisé le mécanisme qui pourrait libérer la porte.,4,5,3,3,5,16.0,Vous détendez votre main et glissez doucement dessus.,4,5,2,5,5,16.8
+77,Bien joué ! Commencez votre voyage pour découvrir la vérité sur votre maître disparu.,4,5,3,3,5,16.0,Vous franchissez la porte en bois vermoulu. Une bibliothèque vide s'offre à vous.,4,5,3,3,5,16.0

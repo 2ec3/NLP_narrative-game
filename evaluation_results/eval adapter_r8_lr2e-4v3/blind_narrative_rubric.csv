@@ -1,0 +1,80 @@
+example_id,response_A,response_B,respect_regles_A_0_2,coherence_A_0_2,pertinence_A_0_2,immersion_A_0_2,concision_A_0_2,respect_regles_B_0_2,coherence_B_0_2,pertinence_B_0_2,immersion_B_0_2,concision_B_0_2,_A_is_baseline
+0,"Vous posez les pieds avec un extrême équilibre sur la pierre branlante. L'arche plie légèrement mais tient bon, vous permettant de regagner l'autre rive indemne.",,,,,,,,,,,,True
+1,Le pickpocket semble contrarié mais accepte de payer son coup.,,,,,,,,,,,,True
+2,,,,,,,,,,,,,False
+3,Vous êtes condamné à la prison pour vol.,,,,,,,,,,,,True
+4,Le garde vous guide vers une salle obscure où se trouve un trésor caché.,,,,,,,,,,,,True
+5,"La foudre s'écrase juste devant vous, mais vous avez pris refuge dans une cavité rocheuse.",,,,,,,,,,,,True
+6,"La princesse est heureuse de retrouver son roi et ses parents. Elle remercie tous ceux qui ont travaillé dur pour la trouver. Le roi lui offre une place au palais, tandis que le roi et la reine sont reconnaissants de votre courage et de votre dévouement. La princesse partage ensuite son histoire avec les autres habitants du royaume, inspirant tout le monde à continuer à aider les gens.",La princesse rejoint sa famille et le roi vous accueille comme un héros. Votre aventure prend fin ici.,,,,,,,,,,,True
+7,"La brume se dissipe doucement, offrant une vue panoramique de la vallée sous votre nez.",,,,,,,,,,,,True
+8,,,,,,,,,,,,,False
+9,,,,,,,,,,,,,True
+10,"Malakar apparaît devant vous, son visage illuminé par la colère. Il demande votre aide pour attaquer le royaume.",,,,,,,,,,,,True
+11,Lecture du parchemin a été effectuée. Votre force s'est légèrement accrue.,,,,,,,,,,,,True
+12,,Cette action est ambiguë. Vous pouvez choisir de revenir sur votre route ou de continuer votre voyage.,,,,,,,,,,,True
+13,,,,,,,,,,,,,True
+14,,Les hélicoptères n'existent pas dans cet univers mythologique. Le dragon hausse les sourcils avant de vous jeter un regard méprisant.,,,,,,,,,,,True
+15,La pierre a réussi à distraire les gobelins. Vous pouvez maintenant avancer.,Vous traversez rapidement le bord du camp sans être vu.,,,,,,,,,,,True
+16,Cette action est incompatible avec le scénario. Le mage noir continue de se moquer de vous.,"C'est une excellente idée, mais il semble que le mage ait déjà repéré votre tentative.",,,,,,,,,,,False
+17,La quête est terminée.,La quête est terminée.,,,,,,,,,,,True
+18,,La jeune éclaireuse elfe vous guide vers les traces des gobelins.,,,,,,,,,,,False
+19,,"La porte s'ouvre, vous découvrez une pièce sombre et mystérieuse.",,,,,,,,,,,False
+20,,,,,,,,,,,,,True
+21,La porte se déverrouille enfin.,,,,,,,,,,,,True
+22,,Le prisonnier se réveille brusquement. Il vous regarde avec des yeux remplis de terreur.,,,,,,,,,,,False
+23,,"Bienvenue, Sir Aldren. Vous avez été choisi pour résoudre ce mystérieux problème. Commencez votre voyage vers la forteresse.",,,,,,,,,,,False
+24,,,,,,,,,,,,,False
+25,,,,,,,,,,,,,True
+26,Fin de partie.,,,,,,,,,,,,True
+27,,,,,,,,,,,,,False
+28,"Bien joué ! Vous avez réussi à ouvrir la porte grâce à votre intelligence et vos connaissances. Maintenant, vous pouvez continuer votre voyage vers la tour d'ivoire.",Aucun lecteur de badge ni carte magnétique ne fonctionne sur cette porte ancestrale gravée de magie pure. Le verrou runique s'illumine d'une lueur rouge d'avertissement.,,,,,,,,,,,True
+29,"Le loup se rapproche doucement, reniflant votre main. Il semble apaisé par votre comportement.","Le loup s'approche prudemment, renifle votre paume gantée, puis incline la tête en signe d'apaisement avant de s'enfoncer tranquillement dans les bois.",,,,,,,,,,,True
+30,,,,,,,,,,,,,False
+31,,Vous ne possédez aucun pouvoir permettant de vous transporter à travers les airs ou à travers les murs de pierre.,,,,,,,,,,,True
+32,,,,,,,,,,,,,False
+33,Vous suivez le chemin que lui a montré le marchand.,Vous suivez le marchand jusqu’à ce qu'il vous guide vers le temple.,,,,,,,,,,,False
+34,,,,,,,,,,,,,False
+35,"L'ogre se retourne vers vous, prêt à attaquer.",,,,,,,,,,,,True
+36,,"Agent : Vous avez accompli votre mission, Agent X. Votre courage et votre détermination ont permis de découvrir le trésor inestimable.",,,,,,,,,,,False
+37,La sorcière a perçu votre tentative désespérée et vous transformera en insecte si vous persistez.,,,,,,,,,,,,True
+38,,,,,,,,,,,,,False
+39,Choisissez entre A) toucher le cristal ou B) continuer à l'examiner sans le toucher.,,,,,,,,,,,,True
+40,Aucun drone ni appareil volant télécommandé ne bourdonne dans cette caverne primitive. Le minotaure pousse un grognement furieux face à votre agitation.,Choix A : Tenter de l'esquiver en faisant une feinte rapide.,,,,,,,,,,,False
+41,,,,,,,,,,,,,False
+42,,,,,,,,,,,,,True
+43,La barrière d'énergie magique protège trop bien ce trésor.,Cette technique n'est pas compatible avec ce phénomène magique.,,,,,,,,,,,True
+44,,Le sort de lumière n'existe pas ici. Vous devez choisir une action compatible avec l'environnement.,,,,,,,,,,,True
+45,"Vous découvrez que les runes sont codées dans un sort d'explosion qui se déclenchera si le coffre est ouvert. Avant de pouvoir accéder au contenu, vous devez trouver un moyen de le dissiper.",,,,,,,,,,,,True
+46,,La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.,,,,,,,,,,,False
+47,La porte s'ouvre sur une pièce sombre et froide. Vous vous avancez vers la lumière.,,,,,,,,,,,,True
+48,"Vous creusez activement autour du coffre. En soulevant le couvercle, vous découvrez des tablettes d'argile couvertes de précieux savoirs ancestraux.",,,,,,,,,,,,True
+49,,,,,,,,,,,,,True
+50,,Il semble que votre intention soit ambigüe. Votre choix devrait être clair.,,,,,,,,,,,False
+51,Votre action est incohérente avec l'univers. Vous êtes toujours enfermé dans votre cellule.,Votre choix semble ambigüe. Veuillez préciser votre intention.,,,,,,,,,,,False
+52,,Votre intention n'est pas très claire. Pourriez-vous préciser votre choix ?,,,,,,,,,,,False
+53,,La route semble longue mais promet une vue panoramique sur la vallée.,,,,,,,,,,,False
+54,L'habitante vous guide vers le lieu où le voleur a été retrouvé.,,,,,,,,,,,,True
+55,,,,,,,,,,,,,False
+56,,,,,,,,,,,,,False
+57,"Il se retourne vers vous, ses yeux brûlants de colère. 'C'est toi qui as commis l'erreur ! Tu vas payer pour ton arrogance !'",,,,,,,,,,,,True
+58,,La longueur de la rivière n'est pas suffisante pour traverser le pont.,,,,,,,,,,,False
+59,,,,,,,,,,,,,True
+60,,,,,,,,,,,,,True
+61,"Le coffre s'ouvre doucement, révélant un rubis éblouissant à l'intérieur.",,,,,,,,,,,,True
+62,La rivière semble tranquille. Que recherchez-vous ?,La rivière serpente silencieusement devant vous.,,,,,,,,,,,True
+63,,Le kraken a été vaincu grâce à votre courage et votre précision. Vous avez survécu au naufrage de votre vaisseau et à la menace du requin.,,,,,,,,,,,False
+64,,"La neige s'accumule à votre niveau, mais vous êtes bien protégé.",,,,,,,,,,,False
+65,,,,,,,,,,,,,False
+66,"La clé s'échappe de son poignet, mais elle n'est pas assez grande pour ouvrir la porte.",,,,,,,,,,,,True
+67,La lame de la lance est usée depuis longtemps et ne supporte plus le poids du filet.,,,,,,,,,,,,False
+68,,,,,,,,,,,,,True
+69,"Dans la pénombre de votre campement, vous entendez des bruits lointains. C'est le vent ? Ou bien... quelqu'un ?",,,,,,,,,,,,True
+70,Votre aventure se termine ici. Votre village vous accueille chaleureusement après votre long voyage.,"Avec la relique dans votre sac, vous quittez le village. Au tout dernier pas, vous entendez un cri derrière la porte de votre maison. C'est votre fille qui vient chercher votre épée perdue. Elle vous remercie chaleureusement avant de s'en aller.",,,,,,,,,,,True
+71,Vos mains vides tremblent devant ce feu ardent.,"Le dragon rouge dégage une brise chaude qui se réchauffe rapidement. Il ouvre ses mâchoires, prêts à avaler votre corps.",,,,,,,,,,,False
+72,,La flamme lèche les pattes velues de l'arachnide qui pousse un sifflet strident et remonte en trombe vers l'obscurité du plafond pour fuir la chaleur.,,,,,,,,,,,False
+73,,,,,,,,,,,,,False
+74,Bien joué ! Vous avez localisé le mécanisme qui pourrait libérer la porte.,Vous repérez le mécanisme près de la charnière.,,,,,,,,,,,True
+75,,,,,,,,,,,,,True
+76,,Le chevalier noir refuse catégoriquement toute communication non verbale.,,,,,,,,,,,False
+77,Bien joué ! Commencez votre voyage pour découvrir la vérité sur votre maître disparu.,,,,,,,,,,,,True
+78,,Elle semble inquiète. Peut-être que vous avez raison ?,,,,,,,,,,,False

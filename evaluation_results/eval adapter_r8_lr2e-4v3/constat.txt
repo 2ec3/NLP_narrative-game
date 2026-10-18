@@ -1,0 +1,12 @@
+Baseline
+12,63/20
+51 réponses notées
+
+Modèle adapté
+14,21/20
+19 réponses notées
+
+
+
+La comparaison par système donne un avantage apparent de 1,58 point sur 20 au modèle adapté.
+Toutefois, les effectifs sont très différents : ces résultats ne permettent pas encore de conclure que le modèle est meilleur sur l'ensemble du jeu de test.

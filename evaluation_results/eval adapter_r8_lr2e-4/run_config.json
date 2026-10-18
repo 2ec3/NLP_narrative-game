@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-17T09:27:40.502570+00:00",
+  "base_model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter_dir": "/content/NLP_narrative-game-cy-tech-2026/model_adapter/adapter_r8_lr2e-4",
+  "test_file": "/content/NLP_narrative-game-cy-tech-2026/datasets/test.json",
+  "n_test_records": 79,
+  "n_evaluated": 79,
+  "max_new_tokens": 220,
+  "do_sample": false,
+  "seed": 42,
+  "python": "3.13.15",
+  "torch": "2.11.0+cu130",
+  "cuda_available": true,
+  "gpu": "Tesla T4"
+}

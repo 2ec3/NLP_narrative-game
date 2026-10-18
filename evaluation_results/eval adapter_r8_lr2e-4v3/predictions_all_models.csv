@@ -1,0 +1,255 @@
+model,example_id,gold_type,predicted_type,raw_output,response,json_valid,schema_valid,latency_seconds,generated_tokens,error
+Baseline,0,exploration,action.valide,"{""type"":""action.valide"",""response"":""Vous posez les pieds avec un extrême équilibre sur la pierre branlante. L'arche plie légèrement mais tient bon, vous permettant de regagner l'autre rive indemne.""}","Vous posez les pieds avec un extrême équilibre sur la pierre branlante. L'arche plie légèrement mais tient bon, vous permettant de regagner l'autre rive indemne.",True,True,7.060041869000031,60,
+Baseline,1,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""Le pickpocket semble contrarié mais accepte de payer son coup.""}",Le pickpocket semble contrarié mais accepte de payer son coup.,True,True,2.8743307089999917,28,
+Baseline,2,action.valide,erreur_de_format,Action valable.,,False,False,0.8342086310000241,5,
+Baseline,3,action.invalide,fin,"{""type"": ""fin"", ""response"": ""Vous êtes condamné à la prison pour vol.""}",Vous êtes condamné à la prison pour vol.,True,True,2.3789246599999956,23,
+Baseline,4,action.incohérente,exploration,"{""type"": ""exploration"", ""response"": ""Le garde vous guide vers une salle obscure où se trouve un trésor caché.""}",Le garde vous guide vers une salle obscure où se trouve un trésor caché.,True,True,3.2337947089999943,32,
+Baseline,5,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""La foudre s'écrase juste devant vous, mais vous avez pris refuge dans une cavité rocheuse.""}","La foudre s'écrase juste devant vous, mais vous avez pris refuge dans une cavité rocheuse.",True,True,3.545765455000037,37,
+Baseline,6,fin - objectif accompli après dernier obstacle,fin,"{""type"":""fin"", ""response"":""La princesse est heureuse de retrouver son roi et ses parents. Elle remercie tous ceux qui ont travaillé dur pour la trouver. Le roi lui offre une place au palais, tandis que le roi et la reine sont reconnaissants de votre courage et de votre dévouement. La princesse partage ensuite son histoire avec les autres habitants du royaume, inspirant tout le monde à continuer à aider les gens.""}","La princesse est heureuse de retrouver son roi et ses parents. Elle remercie tous ceux qui ont travaillé dur pour la trouver. Le roi lui offre une place au palais, tandis que le roi et la reine sont reconnaissants de votre courage et de votre dévouement. La princesse partage ensuite son histoire avec les autres habitants du royaume, inspirant tout le monde à continuer à aider les gens.",True,True,5.803423361,106,
+Baseline,7,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""La brume se dissipe doucement, offrant une vue panoramique de la vallée sous votre nez.""}","La brume se dissipe doucement, offrant une vue panoramique de la vallée sous votre nez.",True,True,1.7271174379999934,39,
+Baseline,8,action.valide,erreur_de_format,"""J'ai besoin d'un repas chaud avant que je ne parte à la recherche d'informations,"" expliquez-vous à votre nouveau confident. ""La taverne est là-bas.""",,False,False,2.0587833920000094,42,
+Baseline,9,action.valide,erreur_de_format,"Vous vous blottissez sous un renfoncement solide. Les rochers s'écrasent lourdement autour de vous, mais vous sortez de l'éboulement sain et sauf.",,False,False,2.2307212979999917,47,
+Baseline,10,énonciation,action.valide,"{""type"":""action.valide"", ""response"":""Malakar apparaît devant vous, son visage illuminé par la colère. Il demande votre aide pour attaquer le royaume.""}","Malakar apparaît devant vous, son visage illuminé par la colère. Il demande votre aide pour attaquer le royaume.",True,True,1.9904745700000035,44,
+Baseline,11,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""Lecture du parchemin a été effectuée. Votre force s'est légèrement accrue.""}",Lecture du parchemin a été effectuée. Votre force s'est légèrement accrue.,True,True,1.5351103440000315,33,
+Baseline,12,action.invalide,erreur_de_format,Vous choisissez A: Rebroussez chemin doucement vers le bateau.,,False,False,1.4628929219999804,20,
+Baseline,13,action.invalide,erreur_de_format,"Votre choix a été reçu. Vous avez choisi de continuer à traverser la tempête de neige. Le vent se force, et vous pouvez entendre le froissement des branches qui craquent sous le poids de la neige. Votre vision devient floue, et vous sentez que votre souffle court et difficile.",,False,False,3.086587452999993,73,
+Baseline,14,action.incohérente,erreur_de_format,"{""type"":""action.incoherent"", ""response"":""Le vieux dragon doré semble inquiet. Il ne comprend pas votre requête. Votre tacticien peut-il suggérer une solution ?""}",,True,False,1.8873060380000197,43,
+Baseline,15,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""La pierre a réussi à distraire les gobelins. Vous pouvez maintenant avancer.""}",La pierre a réussi à distraire les gobelins. Vous pouvez maintenant avancer.,True,True,1.5748223209999992,31,
+Baseline,16,action.incohérente,action.invalide,"{""type"": ""action.invalide"", ""response"": ""C'est une excellente idée, mais il semble que le mage ait déjà repéré votre tentative.""}","C'est une excellente idée, mais il semble que le mage ait déjà repéré votre tentative.",True,True,1.8759888490000094,37,
+Baseline,17,fin,fin,"{""type"":""fin"", ""response"":""La quête est terminée.""}",La quête est terminée.,True,True,1.0730533959999775,17,
+Baseline,18,début,action.valide,"{""type"": ""action.valide"", ""response"": ""La jeune éclaireuse elfe vous guide vers les traces des gobelins.""}",La jeune éclaireuse elfe vous guide vers les traces des gobelins.,True,True,1.617274191999968,32,
+Baseline,19,exploration,action.valide,"{""type"": ""action.valide"", ""response"": ""La porte s'ouvre, vous découvrez une pièce sombre et mystérieuse.""}","La porte s'ouvre, vous découvrez une pièce sombre et mystérieuse.",True,True,1.666863563999982,34,
+Baseline,20,action.valide - reformulation simple,erreur_de_format,Merci pour votre participation ! Cette aventure vous reste à explorer.,,False,False,0.9831685880000123,15,
+Baseline,21,action.incohérente,action.valide,"{""type"": ""action.valide"", ""response"": ""La porte se déverrouille enfin.""}",La porte se déverrouille enfin.,True,True,1.4220078460000423,24,
+Baseline,22,action.valide,action.valide,"{""type"": ""action.valide"", ""response"": ""Le prisonnier se réveille brusquement. Il vous regarde avec des yeux remplis de terreur.""}",Le prisonnier se réveille brusquement. Il vous regarde avec des yeux remplis de terreur.,True,True,1.9225024159999862,40,
+Baseline,23,énonciation,début,"{""type"":""début"", ""response"":""Bienvenue, Sir Aldren. Vous avez été choisi pour résoudre ce mystérieux problème. Commencez votre voyage vers la forteresse.""}","Bienvenue, Sir Aldren. Vous avez été choisi pour résoudre ce mystérieux problème. Commencez votre voyage vers la forteresse.",True,True,2.025153031000002,44,
+Baseline,24,exploration,erreur_de_format,Action validée. Vous avez réussi à ramener le coffre précieux à votre position initiale.,,False,False,1.3516325329999859,22,
+Baseline,25,action.valide,erreur_de_format,"Le chaudron de l'alchimiste bout furieusement, émettant une fumée violette piquante qui irrite vos yeux.
+Choix A : Verser de l'eau fraîche pour calmer l'ébullition. Choix B : Retirer le chaudron du feu à l'aide de gants épais. Choix C : Ajouter une pincée de poudre de lune pour stabiliser.
+Votre Choix : Choix B
+Action Valide : Retirer le chaudron du feu à l'aide de gants épais.",,False,False,5.286783141000001,128,
+Baseline,26,action.valide,fin,"{""type"": ""fin"", ""response"": ""Fin de partie.""}",Fin de partie.,True,True,1.2128347980000171,16,
+Baseline,27,action.incohérente après progression,erreur_de_format,Action invalide. Veuillez choisir une autre action.,,False,False,0.8740750709999929,12,
+Baseline,28,action.incohérente,action.valide,"{""type"": ""action.valide"", ""response"": ""Bien joué ! Vous avez réussi à ouvrir la porte grâce à votre intelligence et vos connaissances. Maintenant, vous pouvez continuer votre voyage vers la tour d'ivoire.""}","Bien joué ! Vous avez réussi à ouvrir la porte grâce à votre intelligence et vos connaissances. Maintenant, vous pouvez continuer votre voyage vers la tour d'ivoire.",True,True,2.584566522999978,53,
+Baseline,29,exploration,action.valide,"{""type"":""action.valide"", ""response"":""Le loup se rapproche doucement, reniflant votre main. Il semble apaisé par votre comportement.""}","Le loup se rapproche doucement, reniflant votre main. Il semble apaisé par votre comportement.",True,True,2.073298352999984,40,
+Baseline,30,action.valide,erreur_de_format,Choix 2 : Vous reculez dans l'ombre avec les clés pour chercher un moyen d'ouvrir la porte silencieusement.,,False,False,1.8002867220000667,34,
+Baseline,31,action.invalide,erreur_de_format,"{""type"":""action.incoherent"", ""response"":""Vous êtes trop faible pour effectuer une telle action magique.""}",,True,False,1.40119297800004,28,
+Baseline,32,action.incohérente,erreur_de_format,"{""type"": ""action.incoherent"", ""response"": ""Votre réplique semble incohérente avec votre situation actuelle. Veuillez reformuler votre proposition.""}",,True,False,2.2968002609999303,37,
+Baseline,33,action.valide,exploration,"{""type"": ""exploration"", ""response"": ""Vous suivez le marchand jusqu’à ce qu'il vous guide vers le temple.""}",Vous suivez le marchand jusqu’à ce qu'il vous guide vers le temple.,True,True,1.622245174999989,31,
+Baseline,34,action.valide,erreur_de_format,Vous avez choisi de ne pas boire de l'eau. Votre choix a été valable.,,False,False,1.4390594080000483,22,
+Baseline,35,action.invalide,action.valide,"{""type"": ""action.valide"", ""response"": ""L'ogre se retourne vers vous, prêt à attaquer.""}","L'ogre se retourne vers vous, prêt à attaquer.",True,True,1.6268200400000978,30,
+Baseline,36,exploration,fin,"{""type"":""fin"",""response"":""Agent : Vous avez accompli votre mission, Agent X. Votre courage et votre détermination ont permis de découvrir le trésor inestimable.""}","Agent : Vous avez accompli votre mission, Agent X. Votre courage et votre détermination ont permis de découvrir le trésor inestimable.",True,True,2.223758943000007,42,
+Baseline,37,action.incohérente,action.invalide,"{""type"": ""action.invalide"", ""response"": ""La sorcière a perçu votre tentative désespérée et vous transformera en insecte si vous persistez.""}",La sorcière a perçu votre tentative désespérée et vous transformera en insecte si vous persistez.,True,True,2.0240604179999764,40,
+Baseline,38,action.valide,erreur_de_format,Votre choix a été accepté. Vous pouvez maintenant choisir une autre action.,,False,False,1.2741903139999522,16,
+Baseline,39,action.ambiguë - interaction,action.valide,"{""type"": ""action.valide"", ""response"": ""Choisissez entre A) toucher le cristal ou B) continuer à l'examiner sans le toucher.""}",Choisissez entre A) toucher le cristal ou B) continuer à l'examiner sans le toucher.,True,True,1.8367762939999466,39,
+Baseline,40,action.incohérente,action.valide,"{""type"":""action.valide"", ""response"":""Choix A : Tenter de l'esquiver en faisant une feinte rapide.""}",Choix A : Tenter de l'esquiver en faisant une feinte rapide.,True,True,1.7309231360000013,31,
+Baseline,41,action.valide,erreur_de_format,"Vous avez réussi à traverser la brèche grâce à votre corde improvisée. Le terrain devient plus accidenté, mais vous pouvez maintenant avancer vers le sud.",,False,False,2.0649491540000326,37,
+Baseline,42,action.ambigue,erreur_de_format,Découvrez une nouvelle source d'eau potable près de vous.,,False,False,1.103129779000028,16,
+Baseline,43,exploration,action.invalide,"{""type"":""action.invalide"", ""response"":""La barrière d'énergie magique protège trop bien ce trésor.""}",La barrière d'énergie magique protège trop bien ce trésor.,True,True,1.8176817820000224,30,
+Baseline,44,action.valide,erreur_de_format,"Vous restez immobile, les yeux fixés sur le mur. Les fléchettes qui ont touché votre bouclier se sont arrêtées net, leurs points d'impact indiquant qu'elles n'ont pas réussi à traverser. Le silence s'estompe lentement, comme si quelque chose venait de se dérouler sous vos yeux. Que faites-vous maintenant ?",,False,False,3.8378818850000016,87,
+Baseline,45,exploration,action.valide,"{""type"":""action.valide"", ""response"":""Vous découvrez que les runes sont codées dans un sort d'explosion qui se déclenchera si le coffre est ouvert. Avant de pouvoir accéder au contenu, vous devez trouver un moyen de le dissiper.""}","Vous découvrez que les runes sont codées dans un sort d'explosion qui se déclenchera si le coffre est ouvert. Avant de pouvoir accéder au contenu, vous devez trouver un moyen de le dissiper.",True,True,3.0106134999999767,63,
+Baseline,46,fin - conclusion narrative,fin,"{""type"": ""fin"", ""response"": ""La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.""}",La princesse est sauvée et votre mission est accomplie. Votre aventure prend fin ici.,True,True,1.794782070999986,34,
+Baseline,47,action.valide,action.valide,"{""type"": ""action.valide"", ""response"": ""La porte s'ouvre sur une pièce sombre et froide. Vous vous avancez vers la lumière.""}",La porte s'ouvre sur une pièce sombre et froide. Vous vous avancez vers la lumière.,True,True,1.96430009900007,38,
+Baseline,48,exploration,action.valide,"{""type"":""action.valide"",""response"":""Vous creusez activement autour du coffre. En soulevant le couvercle, vous découvrez des tablettes d'argile couvertes de précieux savoirs ancestraux.""}","Vous creusez activement autour du coffre. En soulevant le couvercle, vous découvrez des tablettes d'argile couvertes de précieux savoirs ancestraux.",True,True,2.598246028999938,53,
+Baseline,49,action.valide,erreur_de_format,Vous avez choisi de boire la fiole bleue.,,False,False,0.9077806710000687,15,
+Baseline,50,action partiellement valide,action.ambigue,"{""type"": ""action.ambigue"", ""response"": ""Il semble que votre intention soit ambigüe. Votre choix devrait être clair.""}",Il semble que votre intention soit ambigüe. Votre choix devrait être clair.,True,True,1.691517642000008,35,
+Baseline,51,action.valide,action.ambigue,"{""type"":""action.ambigue"",""response"":""Votre choix semble ambigüe. Veuillez préciser votre intention.""}",Votre choix semble ambigüe. Veuillez préciser votre intention.,True,True,1.5345106459999442,27,
+Baseline,52,action.ambiguë - action hors choix,action.ambigue,"{""type"":""action.ambigue"", ""response"":""Votre intention n'est pas très claire. Pourriez-vous préciser votre choix ?""}",Votre intention n'est pas très claire. Pourriez-vous préciser votre choix ?,True,True,2.2252416500000436,31,
+Baseline,53,action.invalide,action.valide,"{""type"": ""action.valide"", ""response"": ""La route semble longue mais promet une vue panoramique sur la vallée.""}",La route semble longue mais promet une vue panoramique sur la vallée.,True,True,3.0597954229999687,33,
+Baseline,54,action.incohérente,action.valide,"{""type"": ""action.valide"", ""response"": ""L'habitante vous guide vers le lieu où le voleur a été retrouvé.""}",L'habitante vous guide vers le lieu où le voleur a été retrouvé.,True,True,1.8004580009999245,34,
+Baseline,55,exploration,erreur_de_format,Action validée.,,False,False,0.7885699070000101,5,
+Baseline,56,action.valide,erreur_de_format,"Vous rampez péniblement vers l'échelle. Les sangsues ont été arrêtées, mais vous avez subi une blessure importante. Il faudra que vous preniez garde à ne pas vous faire attaquer par ces créatures.",,False,False,2.5753046229999654,58,
+Baseline,57,action.invalide,action.incohérente,"{""type"": ""action.incohérente"", ""response"": ""Il se retourne vers vous, ses yeux brûlants de colère. 'C'est toi qui as commis l'erreur ! Tu vas payer pour ton arrogance !'""}","Il se retourne vers vous, ses yeux brûlants de colère. 'C'est toi qui as commis l'erreur ! Tu vas payer pour ton arrogance !'",True,True,2.6074653879999232,54,
+Baseline,58,action.invalide - intention différente,action.valide,"{""type"": ""action.valide"", ""response"": ""La longueur de la rivière n'est pas suffisante pour traverser le pont.""}",La longueur de la rivière n'est pas suffisante pour traverser le pont.,True,True,1.5778665679999904,33,
+Baseline,59,action.incohérente,erreur_de_format,Action invalide.,,False,False,0.4737819969999464,5,
+Baseline,60,exploration,erreur_de_format,"La flamme vive de votre torche repousse la nuée agressive qui s'écarte en criant, vous laissant le champ libre pour progresser.",,False,False,1.9628460500000529,35,
+Baseline,61,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""Le coffre s'ouvre doucement, révélant un rubis éblouissant à l'intérieur.""}","Le coffre s'ouvre doucement, révélant un rubis éblouissant à l'intérieur.",True,True,1.8039354740000135,39,
+Baseline,62,action.valide,exploration,"{""type"": ""exploration"", ""response"": ""La rivière semble tranquille. Que recherchez-vous ?""}",La rivière semble tranquille. Que recherchez-vous ?,True,True,1.4065451599999506,25,
+Baseline,63,action.valide,fin,"{""type"":""fin"", ""response"":""Le kraken a été vaincu grâce à votre courage et votre précision. Vous avez survécu au naufrage de votre vaisseau et à la menace du requin.""}",Le kraken a été vaincu grâce à votre courage et votre précision. Vous avez survécu au naufrage de votre vaisseau et à la menace du requin.,True,True,2.3104772969999203,46,
+Baseline,64,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""La neige s'accumule à votre niveau, mais vous êtes bien protégé.""}","La neige s'accumule à votre niveau, mais vous êtes bien protégé.",True,True,1.4728008739999723,31,
+Baseline,65,action.incohérente,erreur_de_format,"{""type"":""action.incoherent"", ""response"":""La Couronne ne peut pas être prise à mains nues. Elle exige une technique spécifique.""}",,True,False,1.8155026869999347,32,
+Baseline,66,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""La clé s'échappe de son poignet, mais elle n'est pas assez grande pour ouvrir la porte.""}","La clé s'échappe de son poignet, mais elle n'est pas assez grande pour ouvrir la porte.",True,True,1.7917896119998886,37,
+Baseline,67,action.incohérente,erreur_de_format,Votre choix est clair. Vous ramassez la lance du gobelin et vous y jetez tout votre courage. Les autres gobelins se réveillent et commencent à vous attaquer. Que faites-vous ?,,False,False,2.5823544649999803,50,
+Baseline,68,action.valide,erreur_de_format,Action valable.,,False,False,0.5328238360000341,5,
+Baseline,69,énonciation,début,"{""type"":""début"", ""response"":""Dans la pénombre de votre campement, vous entendez des bruits lointains. C'est le vent ? Ou bien... quelqu'un ?""}","Dans la pénombre de votre campement, vous entendez des bruits lointains. C'est le vent ? Ou bien... quelqu'un ?",True,True,1.8673810830000548,43,
+Baseline,70,fin - décision du joueur,fin,"{""type"":""fin"", ""response"":""Votre aventure se termine ici. Votre village vous accueille chaleureusement après votre long voyage.""}",Votre aventure se termine ici. Votre village vous accueille chaleureusement après votre long voyage.,True,True,1.7032092910000074,34,
+Baseline,71,exploration,action.valide,"{""type"":""action.valide"", ""response"":""Le dragon rouge dégage une brise chaude qui se réchauffe rapidement. Il ouvre ses mâchoires, prêts à avaler votre corps.""}","Le dragon rouge dégage une brise chaude qui se réchauffe rapidement. Il ouvre ses mâchoires, prêts à avaler votre corps.",True,True,2.435470351000049,47,
+Baseline,72,action.valide,action.valide,"{""type"":""action.valide"", ""response"":""La flamme lèche les pattes velues de l'arachnide qui pousse un sifflet strident et remonte en trombe vers l'obscurité du plafond pour fuir la chaleur.""}",La flamme lèche les pattes velues de l'arachnide qui pousse un sifflet strident et remonte en trombe vers l'obscurité du plafond pour fuir la chaleur.,True,True,2.6044570500000646,62,
+Baseline,73,action.valide,erreur_de_format,Vous avez choisi de prendre le chemin baignant ensoleillé. Le chant des oiseaux vous accompagne jusqu'à l'entrée d'un village hospitalier où vous pouvez vous reposer.,,False,False,2.0934814940000024,43,
+Baseline,74,action.valide,action.valide,"{""type"": ""action.valide"", ""response"": ""Bien joué ! Vous avez localisé le mécanisme qui pourrait libérer la porte.""}",Bien joué ! Vous avez localisé le mécanisme qui pourrait libérer la porte.,True,True,1.6790230490000795,33,
+Baseline,75,action.valide,erreur_de_format,Le fracas de l'armure attire l'attention des gardes qui se précipitent de l'autre côté de la salle. Le chemin vers l'escalier est maintenant totalement libre.,,False,False,2.219829742999991,43,
+Baseline,76,action.incohérente,action.invalide,"{""type"": ""action.invalide"", ""response"": ""Le chevalier noir refuse catégoriquement toute communication non verbale.""}",Le chevalier noir refuse catégoriquement toute communication non verbale.,True,True,1.6813460270000178,30,
+Baseline,77,énonciation,action.valide,"{""type"": ""action.valide"", ""response"": ""Bien joué ! Commencez votre voyage pour découvrir la vérité sur votre maître disparu.""}",Bien joué ! Commencez votre voyage pour découvrir la vérité sur votre maître disparu.,True,True,1.6257353880000665,36,
+Baseline,78,action.valide - intention implicite,action.ambigue,"{""type"": ""action.ambigue"", ""response"": ""Elle semble inquiète. Peut-être que vous avez raison ?""}",Elle semble inquiète. Peut-être que vous avez raison ?,True,True,1.4820457959999658,30,
+Fine-tuned,0,exploration,erreur_de_format,"Vous atteignez l'autre rive après avoir traversé le pont. Que faites-vous ?
+A) Suivre le sentier qui longe la rivière.
+B) Chercher un abri pour la nuit.
+C) Examiner le pont que vous avez traversé.",,False,False,4.991743344000042,58,
+Fine-tuned,1,action.valide,erreur_de_format,*Action validée.* Vous récupérez la somme nécessaire et continuez votre aventure. Fin de la partie.,,False,False,2.2069202540000106,26,
+Fine-tuned,2,action.valide,erreur_de_format,*Action validée.* Vous êtes sorti de la pièce. Fin de partie.,,False,False,1.6963009860000966,18,
+Fine-tuned,3,action.invalide,erreur_de_format,"{""type"": ""fin""}",,True,False,1.024388818000034,7,
+Fine-tuned,4,action.incohérente,erreur_de_format,"Vous donnez votre nom. Le garde examine votre carte et vous permet de passer. Que faites-vous ?
+A) Avancer vers la ville.
+B) Chercher un abri pour la nuit.
+C) Examiner la route.",,False,False,4.087051433999932,49,
+Fine-tuned,5,action.valide,erreur_de_format,"*Action validée.* Vous êtes en sécurité au sec après avoir pris refuge dans une caverne. Que faites-vous ?
+A) Avancer vers la sortie de la caverne.
+B) Observer la caverne depuis l'extérieur.
+C) Chercher un autre abri plus proche.",,False,False,5.087624665000021,64,
+Fine-tuned,6,fin - objectif accompli après dernier obstacle,fin,"{""type"":""fin"", ""response"":""La princesse rejoint sa famille et le roi vous accueille comme un héros. Votre aventure prend fin ici.""}",La princesse rejoint sa famille et le roi vous accueille comme un héros. Votre aventure prend fin ici.,True,True,3.2250219759999936,37,
+Fine-tuned,7,action.valide,erreur_de_format,"*Action validée.* Vous continuez votre chemin vers la caverne. (Vous arrivez devant une porte.)
+*Action invalide.* Votre progression est trop lente et vous perdez de l'énergie. Réduire votre vitesse ou chercher un autre moyen de se déplacer serait plus judicieux.",,False,False,5.305876678999994,68,
+Fine-tuned,8,action.valide,erreur_de_format,"Vous traversez les ruelles sombres de la cité vers la place du marché. Les marchands s'affairent devant leurs étals, les enfants jouent au jeu de paix et les soldats encapuchonnés patrouillent sur les remparts. C'est une atmosphère calme et apaisée malgré les événements récents. Que faites-vous ?
+Choix 1 : Chercher des marchands ou des vendeuses.
+Choix 2 : Observer les gardes encapuchonnés.",,False,False,9.21267121599999,116,
+Fine-tuned,9,action.valide,erreur_de_format,"Vous vous redressez et regardez autour de vous. La galerie est maintenant couverte de gravats, mais vous êtes indemne. Que faites-vous ?
+A) Examiner la galerie.
+B) Chercher un passage alternatif.
+C) Quitter la zone.",,False,False,5.02823708599999,59,
+Fine-tuned,10,énonciation,erreur_de_format,"{""type"":""action.valide""}",,True,False,0.9449036400000068,8,
+Fine-tuned,11,action.valide,erreur_de_format,"Vous avez choisi la bonne action. Que faites-vous ?
+A) Avancer.
+B) Examiner le sol.
+C) Chercher une issue.",,False,False,2.7824018310000156,32,
+Fine-tuned,12,action.invalide,action.invalide,"{""type"": ""action.invalide"", ""response"": ""Cette action est ambiguë. Vous pouvez choisir de revenir sur votre route ou de continuer votre voyage.""}",Cette action est ambiguë. Vous pouvez choisir de revenir sur votre route ou de continuer votre voyage.,True,True,3.5870795780000435,37,
+Fine-tuned,13,action.invalide,erreur_de_format,"Vous sortez votre boussole et tournez en rond sur le sentier glissant sous la pluie de neige. Vous frissonnez, mais vous persistez. Que faites-vous ?
+Choix 1 : Tourner encore plus vite pour fuir le vent.
+Choix 2 : Chercher un abri près d'une rivière.",,False,False,11.08697118300006,75,
+Fine-tuned,14,action.incohérente,action.invalide,"{""type"":""action.invalide"", ""response"":""Les hélicoptères n'existent pas dans cet univers mythologique. Le dragon hausse les sourcils avant de vous jeter un regard méprisant.""}",Les hélicoptères n'existent pas dans cet univers mythologique. Le dragon hausse les sourcils avant de vous jeter un regard méprisant.,True,True,3.9608352120000063,49,
+Fine-tuned,15,action.valide,exploration,"{""type"":""exploration"",""response"":""Vous traversez rapidement le bord du camp sans être vu.""}",Vous traversez rapidement le bord du camp sans être vu.,True,True,2.1149899239999286,22,
+Fine-tuned,16,action.incohérente,action.invalide,"{""type"": ""action.invalide"", ""response"": ""Cette action est incompatible avec le scénario. Le mage noir continue de se moquer de vous.""}",Cette action est incompatible avec le scénario. Le mage noir continue de se moquer de vous.,True,True,3.220693001999962,36,
+Fine-tuned,17,fin,fin,"{""type"": ""fin"", ""response"": ""La quête est terminée.""}",La quête est terminée.,True,True,1.826740008999991,19,
+Fine-tuned,18,début,erreur_de_format,"Choix A (les gobelins)
+A: les poursuivre
+B: retourner au village
+C: chercher d'autres traces",,False,False,2.8086904120000327,31,
+Fine-tuned,19,exploration,erreur_de_format,"Action refusée. Cette action n’est pas possible. Vous pouvez :
+A) chercher une solution
+B) revenir en arrière
+C) examiner la situation",,False,False,3.0944958889999725,36,
+Fine-tuned,20,action.valide - reformulation simple,erreur_de_format,A,,False,False,0.6150871099999904,2,
+Fine-tuned,21,action.incohérente,erreur_de_format,"La serrure tourne lentement et la porte se déverrouille. Que faites-vous ?
+A) Entrer par la porte.
+B) Examiner la porte avant d'entrer.
+C) Chercher une autre entrée.",,False,False,4.231985080999948,50,
+Fine-tuned,22,action.valide,erreur_de_format,"Action refusée. Vous n’avez pas assez de force physique pour couper les cordes manuellement. Le prisonnier reste captif. Que faites-vous ?
+A) Chercher une solution
+B) Revenir en arrière
+C) Examiner la situation",,False,False,4.488471140999991,56,
+Fine-tuned,23,énonciation,erreur_de_format,"Action valides :
+- Partir pour la forteresse.
+- Chercher un moyen de traverser les montagnes.
+- Tenter de parler au dragon.",,False,False,3.0890274910000244,35,
+Fine-tuned,24,exploration,erreur_de_format,"Vous regardez dans le coffre. Il contient une bague ancienne gravée de runes mystérieuses. Vous pouvez :
+A) Prendre la bague.
+B) Remercier l'objet.
+C) Quitter le passage.",,False,False,4.573087098999963,54,
+Fine-tuned,25,action.valide,erreur_de_format,A,,False,False,0.8061526650000133,2,
+Fine-tuned,26,action.valide,erreur_de_format,"{""type"": ""fin""}",,True,False,1.1696654880000779,7,
+Fine-tuned,27,action.incohérente après progression,erreur_de_format,"Action invalide. Vous ne pouvez pas sauter dans la rivière pour atteindre une rive opposée. Vos options sont :
+A) traverser le pont
+B) chercher un autre chemin
+C) retourner vers la forêt.",,False,False,4.484169575999999,53,
+Fine-tuned,28,action.incohérente,action.invalide,"{""type"": ""action.invalide"", ""response"": ""Aucun lecteur de badge ni carte magnétique ne fonctionne sur cette porte ancestrale gravée de magie pure. Le verrou runique s'illumine d'une lueur rouge d'avertissement.""}",Aucun lecteur de badge ni carte magnétique ne fonctionne sur cette porte ancestrale gravée de magie pure. Le verrou runique s'illumine d'une lueur rouge d'avertissement.,True,True,5.125467620999984,61,
+Fine-tuned,29,exploration,action.valide,"{""type"": ""action.valide"", ""response"": ""Le loup s'approche prudemment, renifle votre paume gantée, puis incline la tête en signe d'apaisement avant de s'enfoncer tranquillement dans les bois.""}","Le loup s'approche prudemment, renifle votre paume gantée, puis incline la tête en signe d'apaisement avant de s'enfoncer tranquillement dans les bois.",True,True,4.969565786999965,59,
+Fine-tuned,30,action.valide,erreur_de_format,"Vous déverrouillez la serrure avec une gourde pleine d'eau froide qui glisse parfaitement dessus. Le garde ouvre la cellule d'un coup d'épaule, vous lançant un regard perplexe avant de repartir vers la sortie. Vous êtes libéré ! Fin de partie.",,False,False,5.692169278999927,70,
+Fine-tuned,31,action.invalide,action.invalide,"{""type"":""action.invalide"", ""response"":""Vous ne possédez aucun pouvoir permettant de vous transporter à travers les airs ou à travers les murs de pierre.""}",Vous ne possédez aucun pouvoir permettant de vous transporter à travers les airs ou à travers les murs de pierre.,True,True,3.2242836270000907,39,
+Fine-tuned,32,action.incohérente,erreur_de_format,"Votre action est ambiguë : que voulez-vous accomplir réellement ?
+A: Vous vous cachez sous des peaux de bêtes.
+B: Vous tendez une embuscade au garde.
+C: Vous mettez le feu à la tente pour faire diversion.",,False,False,5.358793351000031,60,
+Fine-tuned,33,action.valide,exploration,"{""type"":""exploration"",""response"":""Vous suivez le chemin que lui a montré le marchand.""}",Vous suivez le chemin que lui a montré le marchand.,True,True,2.319037334999962,25,
+Fine-tuned,34,action.valide,erreur_de_format,"Vous buvez l'eau. Ses saveurs sont anesthésiantes mais ses effets secondaires sont inattendus : vos yeux se dilatent brutalement, votre vision devient bleutée et vous éprouvez une légère sensation de froid sur tout le corps. Que faites-vous ?
+A) Boire l'eau encore
+B) Redresser votre visage
+C) Examiner votre corps",,False,False,7.210378091000052,89,
+Fine-tuned,35,action.invalide,erreur_de_format,"L’ogre se retourne vers votre position en levant sa main armée. Que faites-vous ?
+A) L'attaquer.
+B) Le distraire.
+C) Chercher une autre entrée.",,False,False,3.8563008440000885,46,
+Fine-tuned,36,exploration,erreur_de_format,"{""type"": ""fin""}",,True,False,1.1395768220000946,7,
+Fine-tuned,37,action.incohérente,erreur_de_format,"{""type"": ""fin""}",,True,False,0.9830077260000962,7,
+Fine-tuned,38,action.valide,erreur_de_format,"Vous pouvez :
+A) Reprendre la main de votre compagnon.
+B) Lui demander ce qui lui est arrivé.
+C) Examiner sa blessure plus attentivement.",,False,False,3.519370090999928,39,
+Fine-tuned,39,action.ambiguë - interaction,erreur_de_format,"Votre action n'est pas suffisamment précise. Que souhaitez-vous faire avec le cristal ?
+A) le toucher
+B) continuer à l'examiner sans le toucher
+C) quitter la pièce",,False,False,3.7740293770000335,47,
+Fine-tuned,40,action.incohérente,action.invalide,"{""type"":""action.invalide"",""response"":""Aucun drone ni appareil volant télécommandé ne bourdonne dans cette caverne primitive. Le minotaure pousse un grognement furieux face à votre agitation.""}",Aucun drone ni appareil volant télécommandé ne bourdonne dans cette caverne primitive. Le minotaure pousse un grognement furieux face à votre agitation.,True,True,4.411823915000014,52,
+Fine-tuned,41,action.valide,erreur_de_format,Vous atteignez le sentier de montagne à hauteur du col. Fin.,,False,False,2.041103939999971,19,
+Fine-tuned,42,action.ambigue,erreur_de_format,"Choix A : Avancer dans l’eau. Vous plongez lentement en vous servant de vos bottes robustes pour traverser le gouffre. (Action validée)
+A: traverser le gouffre",,False,False,3.9811598260000665,48,
+Fine-tuned,43,exploration,action.invalide,"{""type"": ""action.invalide"", ""response"": ""Cette technique n'est pas compatible avec ce phénomène magique.""}",Cette technique n'est pas compatible avec ce phénomène magique.,True,True,2.848916256999928,29,
+Fine-tuned,44,action.valide,action.invalide,"{""type"":""action.invalide"",""response"":""Le sort de lumière n'existe pas ici. Vous devez choisir une action compatible avec l'environnement.""}",Le sort de lumière n'existe pas ici. Vous devez choisir une action compatible avec l'environnement.,True,True,3.103287215000023,34,
+Fine-tuned,45,exploration,erreur_de_format,"Vous découvrez que le coffre contient une relique ancienne qui donne au possesseur la capacité de communiquer directement avec les anges. Que faites-vous ?
+A) Prendre la relique.
+B) Étudier la relique plus avant.
+C) Quitter la pièce.",,False,False,5.5934493830000065,67,
+Fine-tuned,46,fin - conclusion narrative,erreur_de_format,"{""type"": ""fin""}",,True,False,1.0411437480000814,7,
+Fine-tuned,47,action.valide,erreur_de_format,Choix A (descendre l’échelle) ou B (ouvrir la porte).,,False,False,2.072650592000059,21,
+Fine-tuned,48,exploration,erreur_de_format,"Vous creusez activement autour du coffre. En soulevant le couvercle, vous découvrez des tablettes d'argile couvertes de précieux savoirs ancestraux. Fin.",,False,False,3.9543414199999916,45,
+Fine-tuned,49,action.valide,erreur_de_format,Vous retrouvez toute force reconstituée pour repartir vers la sortie. Fin de la partie.,,False,False,2.113571646999958,24,
+Fine-tuned,50,action partiellement valide,erreur_de_format,Choix A,,False,False,0.6619150770000033,4,
+Fine-tuned,51,action.valide,action.invalide,"{""type"":""action.invalide"", ""response"":""Votre action est incohérente avec l'univers. Vous êtes toujours enfermé dans votre cellule.""}",Votre action est incohérente avec l'univers. Vous êtes toujours enfermé dans votre cellule.,True,True,3.18336854100005,35,
+Fine-tuned,52,action.ambiguë - action hors choix,erreur_de_format,"Choisissez une action valide (A, B ou C).",,False,False,1.3813613050000413,14,
+Fine-tuned,53,action.invalide,erreur_de_format,"Vous prenez la route vers la ville. Que faites-vous ?
+A) Suivre la route.
+B) Chercher un chemin plus aisé.
+C) Remercier la personne qui vous suit.",,False,False,3.57539202199996,43,
+Fine-tuned,54,action.incohérente,erreur_de_format,"Les habitants vous racontent que le voleur a disparu depuis plusieurs jours.
+A) Interroger les autres
+B) Chercher sa trace
+C) Observer le marché",,False,False,3.400232206999931,39,
+Fine-tuned,55,exploration,erreur_de_format,"Action validée. Vous contournez habilement les récifs tranchants et échappez au piège marin. Que faites-vous ?
+A) Suivre le sentier menant à la plage.
+B) Chercher un abri dans les buissons.
+C) Observer les environs depuis un rocher.",,False,False,5.855545235000022,71,
+Fine-tuned,56,action.valide,erreur_de_format,"Votre corps est endolori, mais vous pouvez encore marcher. Vous atteignez l'échelle avant que les sangsues ne reviennent. Que faites-vous ?
+Choix 1 : Vous grimpez l'échelle.
+Choix 2 : Vous retournez dans la salle pour chercher autre chose.",,False,False,5.599040813999977,69,
+Fine-tuned,57,action.invalide,erreur_de_format,"Vous posez une pièce dans son coffre. L'elfe incline la tête, sourit et vous laisse passer. Vous êtes désormais le nouveau chef de la guilde des voleurs. Fin de l'aventure.",,False,False,4.229476269000088,49,
+Fine-tuned,58,action.invalide - intention différente,erreur_de_format,A,,False,False,0.496132669000076,2,
+Fine-tuned,59,action.incohérente,erreur_de_format,Action invalide. Vous ne possédez aucun objet capable de vous permettre de frapper la porte avec votre épée. Choisissez une action valide.,,False,False,2.7843810079999685,34,
+Fine-tuned,60,exploration,erreur_de_format,"Vous brandissez votre torche enflammée et avancez dans la caverne. Que faites-vous ?
+A) Avancer plus loin dans la caverne.
+B) Chercher un abri.
+C) Examiner la situation depuis le bord de la galerie.",,False,False,4.890223429000002,59,
+Fine-tuned,61,action.valide,erreur_de_format,*Récompense : Rubis rouge vif (10 points)*,,False,False,1.5253905909999048,16,
+Fine-tuned,62,action.valide,exploration,"{""type"":""exploration"",""response"":""La rivière serpente silencieusement devant vous.""}",La rivière serpente silencieusement devant vous.,True,True,2.1264605229999916,23,
+Fine-tuned,63,action.valide,erreur_de_format,Fin de partie. Vous pouvez quitter l'aventure ou chercher un scénario ultérieur.,,False,False,2.3714882219999254,23,
+Fine-tuned,64,action.valide,erreur_de_format,"*Action valides possibles après cette situation :*
+- Choix A (vous êtes bien protégé)
+- Choix B (vous n'avez pas assez de force pour courir vite)
+- Choix C (vous creusez un abri mais il est trop petit)",,False,False,4.8204538050000565,60,
+Fine-tuned,65,action.incohérente,erreur_de_format,Fin de partie.,,False,False,1.0278326830000424,5,
+Fine-tuned,66,action.valide,erreur_de_format,"Vous déverrouillez le coffre principal. Que faites-vous ?
+A) Ouvrir le coffre.
+B) Examiner le contenu.
+C) Quitter la pièce.",,False,False,3.111198675999958,38,
+Fine-tuned,67,action.incohérente,action.invalide,"{""type"": ""action.invalide"", ""response"": ""La lame de la lance est usée depuis longtemps et ne supporte plus le poids du filet.""}",La lame de la lance est usée depuis longtemps et ne supporte plus le poids du filet.,True,True,3.616535772999896,37,
+Fine-tuned,68,action.valide,erreur_de_format,"*Action validée.* Vous êtes indemne malgré la chaleur intense. Que faites-vous ?
+- Avancer dans la salle.
+- Examiner la barrière de feu.
+- Chercher un autre chemin.",,False,False,3.532130314999904,44,
+Fine-tuned,69,énonciation,erreur_de_format,"{""type"":""début""}",,True,False,0.8099965450001037,7,
+Fine-tuned,70,fin - décision du joueur,fin,"{""type"":""fin"", ""response"":""Avec la relique dans votre sac, vous quittez le village. Au tout dernier pas, vous entendez un cri derrière la porte de votre maison. C'est votre fille qui vient chercher votre épée perdue. Elle vous remercie chaleureusement avant de s'en aller.""}","Avec la relique dans votre sac, vous quittez le village. Au tout dernier pas, vous entendez un cri derrière la porte de votre maison. C'est votre fille qui vient chercher votre épée perdue. Elle vous remercie chaleureusement avant de s'en aller.",True,True,5.78067346399996,73,
+Fine-tuned,71,exploration,action.invalide,"{""type"": ""action.invalide"", ""response"": ""Vos mains vides tremblent devant ce feu ardent.""}",Vos mains vides tremblent devant ce feu ardent.,True,True,2.720637330000045,29,
+Fine-tuned,72,action.valide,erreur_de_format,"*Action validée.* Vous avez réussi à vous débarrasser de la créature nocturne. Que faites-vous ?
+A) Suivre le chemin que vous venez de quitter.
+B) Chercher une autre source de lumière.
+C) Reprendre votre souffle.",,False,False,4.804090503999987,61,
+Fine-tuned,73,action.valide,erreur_de_format,"Votre choix correspond parfaitement aux possibilités proposées. Que faites-vous ?
+A) Suivre le chemin vers le village.
+B) Reprendre votre route par le sentier.
+C) Quitter le village immédiatement.",,False,False,4.184041777999937,50,
+Fine-tuned,74,action.valide,action.valide,"{""type"":""action.valide"",""response"":""Vous repérez le mécanisme près de la charnière.""}",Vous repérez le mécanisme près de la charnière.,True,True,2.3619754569999714,26,
+Fine-tuned,75,action.valide,erreur_de_format,"Vous frappez une armure abandonnée au loin pour faire diversion. Les gardes arrivent sur place et repartent vers la sortie. Le chemin vers l'escalier est maintenant totalement libre. Que faites-vous ?
+A) Suivre l'escalier.
+B) Chercher un autre passage.
+C) Observer les gardes depuis le couloir.",,False,False,6.355756231999976,77,
+Fine-tuned,76,action.incohérente,erreur_de_format,"{""type"": ""action"", ""response"": ""Vous envoyez un texto sur WhatsApp.""}",,True,False,2.026247687000023,20,
+Fine-tuned,77,énonciation,erreur_de_format,"Vous incarnez un jeune mage capable de manipuler les éléments. Votre maître vient de disparaître après avoir découvert un ancien grimoire interdit. Votre première piste vous mène vers une tour abandonnée.
+{""type"": ""action"", ""value"": ""Entrer par la porte principale.""}",,False,False,5.405938687999992,69,
+Fine-tuned,78,action.valide - intention implicite,erreur_de_format,Vous posez la question. La magicienne réagit : « Le mot secret ? » (A).,,False,False,2.020860262000042,23,

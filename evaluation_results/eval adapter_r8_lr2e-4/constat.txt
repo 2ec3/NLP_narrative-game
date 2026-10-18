@@ -1,0 +1,7 @@
+Résultats globaux de l'évaluation
+Moyenne générale de la Réponse A (Baseline) : 15,20 / 20
+
+Moyenne générale de la Réponse B (Modèle évalué) : 15,02 / 20
+
+Les deux modèles ont un niveau de performance quasi-équivalent (écart de 0,18 point en faveur de la baseline). Ils excellent tous les deux en Cohérence et en Concision, mais la réponse A prend très
+ légèrement l'ascendant sur la Pertinence globale vis-à-vis des choix proposés au joueur.

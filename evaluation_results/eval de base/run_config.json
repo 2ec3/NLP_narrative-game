@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-16T10:24:03.110373+00:00",
+  "base_model_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "adapter_dir": "/home/cytech/Music/NLP/Projet NLP/NLP_narrative-game/model_adapter/checkpoints/checkpoint-207",
+  "test_file": "/home/cytech/Music/NLP/Projet NLP/NLP_narrative-game/datasets/test.json",
+  "n_test_records": 79,
+  "n_evaluated": 79,
+  "max_new_tokens": 220,
+  "do_sample": false,
+  "seed": 42,
+  "python": "3.14.4",
+  "torch": "2.14.1+cu130",
+  "cuda_available": false,
+  "gpu": null
+}
