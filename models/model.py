@@ -31,7 +31,7 @@ class Model:
         while (len(self.messages) > self.max_content):
             self.messages.pop(1)
 
-    def generate(self, max_new_tokens = 256, do_sample = True, temperature = 1, top_k = 30, top_p = 0.8):
+    def generate(self, max_new_tokens = 512, do_sample = True, temperature = 1, top_k = 30, top_p = 0.8):
         text = self.tokenizer.apply_chat_template(
             self.messages,
             tokenize=False,
