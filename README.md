@@ -59,8 +59,10 @@ Si l'application utilise Gradio, l'adresse locale sera affichée dans le termina
 Exemple, pour lancer le model Qwen2.5-1.5B-Instruct avec comme contenue de système "Tu es le Game Master d'un jeu narratif."
 
 ```bash
-uv run .\models\model.py
+uv run models\model.py
 ```
+
+Pour lancer notre adaptateur, vous devez exécuter `agent.ipynb`. 
 
 ## Modèle et données
 
@@ -68,7 +70,8 @@ uv run .\models\model.py
 - **Adaptation prévue :** LoRA/QLoRA
 - **Données :** dialogues conçus et vérifiés par le groupe, selon les règles et les scénarios du jeu.
 
-Consulter le dossier `data/` pour connaître la provenance des données et les instructions nécessaires à leur préparation.
+Consulter le dossier `Dataset.ipynb` pour connaître la provenance des données et les instructions nécessaires à leur préparation. 
+Les détails sur l'entraînement de notre adapteur est décrit dans `Training.ipynb`. 
 
 ## Reproductibilité
 
